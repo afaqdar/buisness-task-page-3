@@ -189,11 +189,104 @@ body{
     color: black;
     margin-top: 2px;
 }
+.special-offer .col-3{
+    height: 50%;
+    background-color:rgba(255,165,0,.1);
+    border-radius: 8px;
+    padding: 15px;
+    overflow: hidden;
+    border: 1.8px dotted orange;
 
+}
+.special-offer .col-8 img{
+    border-radius: 10px;
+    width: 100%;
+    height: 60%;
+}
 
+.special-offer .col-8 img.radio{
+    border-radius: 10px;
+    width: 44%;
+    height: 28%;
+}
 
+.special-offer .col-8 img.kits{
+    border-radius: 10px;
+    width: 44%;
+    height: 28%;
+}
+.special-offer img{
+    width: 224px;
+    height: 250px;
+    border-radius: 6px;
+    margin-left: 23px;
+}
+.special-offer h2{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Grandstander', cursive;
 
+}
+.price{
+    margin-left: 68px;
+}
+.price.h6, h6 {
+    margin-left: 44px;
+    font-size: 1rem;
+}
+.special-offer .col{
+    width: 50px;
+    height: 50px;
+    color:red;
+}
+.line{
+    width: 285px;
+    overflow: hidden;
+    height: 8px;
+    background-color:rgba(128,128, 128,.3) ;
+    border-radius: 50px;
+}
+.line h1{
+    height: 8px;
+    width: 130px;
+    background-color:pink;
+    border-radius: 50px;
+}
+.spacing{
+    display: flex;
+    justify-content: space-between;
+}
+.spacing h6{
+    font-size: 13px;
+        margin-right: 10px;
+    
+}
+.spacing h6.one{
+margin: 0px;
+}
+.launch-time{
+    
+    display: flex;
+    
+}
 
+.launch-time div{
+    flex-basis: 100px;
+}
+.launch-time div p {
+    background-color: pink;
+    border-radius: 50%;
+    margin: 8px;
+    padding: 10px 10px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+    margin-bottom: 8px;
+}
+.launch-time div span{
+    margin-left: 20px;
+    font-weight: bolder;
+}
 @media (max-width:1399.98px){
     .header{
         overflow: hidden;
