@@ -1,0 +1,665 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
+.top-navbar .row{
+    background-color: rgb(238, 228, 181);
+}
+.top-navbar .col{
+    display: flex;
+    align-items: center;
+    height: 24px;
+}
+.top-navbar .col h5{
+    margin-top: 6px;
+    font-size: 12px;
+    margin-left:250px;
+
+}
+.top-navbar .col a{
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 12px;
+    color: orange;
+    font-weight: 700;
+}
+.top-navbar .col span{
+    padding:2px;
+    border-radius: 50%;
+    font-size: 12px;
+    margin-left: 4px;
+    color: white;
+    background-color: orange;
+}
+.bg-body-tertiary {
+    --bs-bg-opacity: none;
+  
+}
+.navbar-nav{
+    margin-left: 120px;
+}
+.navbar img{
+    height: 80px;
+    width: 80px;
+    margin-left: 250px;
+}
+.navbar h4{
+    font-size: 15px;
+    border-radius: 50%;
+    padding: 20px;
+    border: 2px dotted red;
+    color:purple;
+}
+.navbar-nav span{
+    margin-top: 14px;
+    font-size: 20px;
+    
+}
+.navbar-nav a{
+    margin-left: 8px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: orange;
+    text-decoration-line: underline;
+}
+.navbar-nav a.navlink{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.navbar-nav a.right-icons{
+    text-decoration: none;
+    color: black;
+    margin-left: 200px;
+}
+.navbar-nav a.right-icons span{
+    margin-left: 12px;
+}
+.search-bar .parent-orange{
+    border-radius: 11px;
+    width: 300px;
+    background-color: orange;
+    padding:13px 13px ;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.search-bar .parent-orange:hover{
+   
+    background-color: black;
+    
+}
+.search-bar .parent-orange a{
+    font-size: 16px;
+    font-weight: bolder;
+    margin: 0px 18px;        
+    }
+    
+.search-bar .parent-orange span{
+    
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+       
+    }
+   .search button, input, optgroup, select, textarea {
+        margin: 0;
+        width: 436px;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+    }
+    .search [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+        cursor: pointer;
+        border-radius: 55px;
+        width: 85px;
+        height: 47px;
+        border: none;
+        background: orange;
+    }
+    .search button, input, optgroup, select, textarea {
+        margin: 0;
+        width: 500px;
+        border: none;
+        height: 45px;
+        border-radius: 48px;
+        margin-top: 0px;
+        margin-right: -40px;
+        border: 1px solid orange;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+    }
+    .search .material-symbols-outlined {
+        font-size: 20px;
+    }
+    .search-bar .col-6{
+        position: relative;
+    }
+.category{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+}
+.category .h5, h5 {
+    /* height: 23px; */
+    font-size: 15px;
+    font-weight: 57;
+    color: orange;
+    margin-right: 12px;
+}
+.category .h2, h2 {
+    font-size: 17px;
+}
+.category .search .material-symbols-outlined {
+    font-size: 21px;
+    margin-left: 5px;
+}
+.category{
+    position: absolute;
+    top: 18%;
+    left: 48%;
+}
+
+.category .material-symbols-outlined {
+    font-size: 20px;
+    margin-left: 13px;
+}
+.search-bar .col-6 .most-searched{
+    display: flex;
+    margin-top: 4px;
+}
+.most-searched a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+    margin: 0px 6px;
+    
+}
+
+.most-searched a:hover{
+    color: orange;
+}
+.most-searched h5{
+    font-weight: 400;
+    color: black;
+    margin-top: 2px;
+}
+
+
+
+
+
+@media (max-width:1399.98px){
+    .header{
+        overflow: hidden;
+    }
+    
+    .top-navbar .col h5 {
+        margin-top: 6px;
+        font-size: 12px;
+        margin-left: 150px;
+    }
+    
+    .navbar-nav a {
+        margin-left: 8px;
+        font-weight: bold;
+        font-size: 10px;
+    }
+    
+.navbar-nav a.right-icons span{
+    margin-left: 12px;
+    font-size: 10px;
+}
+    
+    .navbar-nav a.right-icons {
+        text-decoration: none;
+        color: black;
+        display: flex;
+        margin-left: 50px;
+    }
+        
+    .navbar img {
+        height: 60px;
+        width: 60px;
+        margin-left: 250px;
+    }
+    
+    .navbar h4 {
+        font-size: 10px;
+        border-radius: 50%;
+        padding: 15px;
+        border: 2px dotted red;
+        color: purple;
+    }
+    .category {
+        position: absolute;
+        top: 18%;
+        left: 56%;
+    }
+    .search-bar .parent-orange {
+        border-radius: 11px;
+        width: 262px;
+        background-color: orange;
+        padding: 13px 13px;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    
+.search-bar .col-6 .most-searched{
+    display: flex;
+    margin-top: 4px;
+}
+.most-searched a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    color: black;
+    margin: 0px 5px;
+    
+}
+
+.most-searched a:hover{
+    color: orange;
+}
+.most-searched h5{
+    font-weight: 400;
+    color: black;
+    margin-top: unset;
+}
+
+
+}
+@media (min-width:992px) and (max-width:1199.98px){
+    .header{
+        overflow: hidden;
+    }
+    .navbar-nav a.right-icons {
+        text-decoration: none;
+        color: black;
+        display: unset;
+        
+        margin-left: 50px;
+    }
+    
+    .navbar h4 {
+        font-size: 10px;
+        border-radius: 50%;
+        padding: 20px;
+        border: 2px dotted red;
+        color: purple;
+    }
+    .navbar img {
+        height: 50px;
+        width: 50px;
+        margin-left: 100px;
+    }
+    .category {
+        position: absolute;
+        top: 18%;
+        left: 53%;
+    }
+    .search button, input, optgroup, select, textarea {
+        margin: 0;
+        width: 438px;
+        border: none;
+        height: 45px;
+        border-radius: 48px;
+        margin-top: 0px;
+        margin-right: -40px;
+        border: 1px solid orange;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+    }
+    .search-bar .parent-orange a {
+        font-size: 12px;
+        font-weight: bolder;
+        margin: 0px 18px;
+    }
+    .search-bar .parent-orange span {
+        font-size: 16px;
+        font-weight: bold;
+        color: white;
+    }
+    .search-bar .parent-orange {
+        border-radius: 11px;
+        width: 240px;
+        background-color: orange;
+        padding: 13px 13px;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+       
+.search-bar .col-6 .most-searched{
+    display: flex;
+    margin-top: 4px;
+}
+.most-searched a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 10px;
+    color: black;
+    margin: 0px 4px;
+    
+}
+
+.most-searched a:hover{
+    color: orange;
+}
+.most-searched h5{
+    font-weight: 400;
+    color: black;
+    margin-top: unset;
+}
+    
+
+}
+@media(min-width:768px)and (max-width:991.98px){
+    .header{
+        overflow: hidden;
+    }
+    .navbar-nav a.right-icons {
+        text-decoration: none;
+        color: black;
+        display: block;
+        margin-left: 0px;
+    }
+    .navbar img {
+        height: 60px;
+        width: 60px;
+        margin-left: 0px;
+    }
+    .top-navbar .col h5 {
+        margin-top: 6px;
+        font-size: 8px;
+        margin-left: 150px;
+    }
+    .top-navbar .col a {
+        text-decoration: none;
+        margin-left: 10px;
+        font-size: 8px;
+        color: orange;
+        font-weight: 700;
+    }
+    .top-navbar .col span {
+        padding: 2px;
+        border-radius: 50%;
+        font-size: 10px;
+        margin-left: 4px;
+        color: white;
+        background-color: orange;
+    }
+    .navbar-nav {
+        margin-left: 0px;
+    }
+    .navbar-nav a.right-icons {
+        text-decoration: none;
+        color: black;
+        display: grid;
+        margin-left: 0px;
+    }
+    .category {
+        position: absolute;
+        top: 20%;
+        left: 42%;
+    }
+    
+    .category .h2, h2 {
+        font-size: 13px;
+    }
+    .search button, input, optgroup, select, textarea {
+        margin: 0;
+        width: 323px;
+        border: none;
+        height: 45px;
+        border-radius: 48px;
+        margin-top: 0px;
+        margin-right: -40px;
+        border: 1px solid orange;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+    }
+    .search-bar .parent-orange {
+        border-radius: 11px;
+        width: 220px;
+        background-color: orange;
+        padding: 12px 12px;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .search-bar .parent-orange a {
+        font-size: 10px;
+        font-weight: bolder;
+        margin: 0px 18px;
+    }
+    .search-bar .parent-orange span {
+        font-size: 15px;
+        font-weight: bold;
+        color: white;
+    }
+    .offset-1  {
+        margin-left: 4.333333%;
+    }
+    .search-bar .col-6 .most-searched {
+        display: flex;
+        margin-top: 0px;
+    }
+    .most-searched h5 {
+        font-size: 12px;
+        font-weight: 400;
+        color: black;
+        margin-top: unset;
+    }
+    .most-searched a {
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 10px;
+        color: black;
+        margin: 0px 5px;
+    }
+    
+
+
+}
+@media(min-width:576px)and (max-width:767.98px){
+    .header{
+        overflow: hidden;
+    }
+    .navbar img {
+        height: 60px;
+        width: 60px;
+        margin-left: 0px;
+    }
+    
+    .top-navbar .col h5 {
+        margin-top: 6px;
+        font-size: 8px;
+        margin-left: 70px;
+    }
+    .top-navbar .col a {
+        text-decoration: none;
+        margin-left: 10px;
+        font-size: 8px;
+        color: orange;
+        font-weight: 700;
+    }
+    .top-navbar .col span {
+        padding: 2px;
+        border-radius: 50%;
+        font-size: 10px;
+        margin-left: 4px;
+        color: white;
+        background-color: orange;
+    }
+    .navbar-nav {
+        margin-left: 0px;
+    }
+    .navbar-nav a.right-icons {
+        text-decoration: none;
+        color: black;
+        display: grid;
+        margin-left: 0px;
+    }
+    .search-bar .parent-orange a {
+        font-size: 8px;
+        font-weight: bolder;
+        margin: 0px 10px;
+    }
+    .search-bar .parent-orange span {
+        font-size: 14px;
+        font-weight: bolder;
+        color: white;
+    }
+    .search-bar .parent-orange {
+        border-radius: 11px;
+        width: 180px;
+        background-color: orange;
+        padding: 14px;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .category {
+        display: none;
+        position: absolute;
+        top: 21%;
+        left: 43%;
+    }
+    
+    .search button, input, optgroup, select, textarea {
+        margin: 0;
+        width: 234px;
+        border: none;
+        height: 39px;
+        border-radius: 48px;
+        margin-top: 0px;
+        margin-right: -40px;
+        border: 1px solid orange;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+    }
+    .search-bar .col-6 .most-searched {
+        display: flex;
+        margin-top: 0px;
+    }
+    .most-searched h5 {
+        font-weight: 400;
+        color: black;
+        margin-top: unset;
+        font-size: 9px;
+    }
+    .most-searched h5 {
+        font-weight: 400;
+        color: black;
+        margin-top: unset;
+        font-size: 9px;
+    }
+    .most-searched a {
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 8px;
+        color: black;
+        margin: 0px 5px;
+    }
+
+
+}
+@media (max-width:575.98px) {
+    .header{
+        overflow: hidden;
+    }
+    .navbar img {
+        height: 60px;
+        width: 60px;
+        margin-left: 0px;
+    }
+    
+    
+    .top-navbar .col h5 {
+        margin-top: 6px;
+        font-size: 5px;
+        margin-left: 10px;
+    }
+    .top-navbar .col a {
+        text-decoration: none;
+        margin-left: 10px;
+        font-size: 5px;
+        color: orange;
+        font-weight: 700;
+    }
+    .top-navbar .col span {
+        padding: 2px;
+        border-radius: 50%;
+        font-size: 6px;
+        margin-left: 4px;
+        color: white;
+        background-color: orange;
+    }
+  
+    .navbar-nav {
+        margin-left: 0px;
+    }
+    .navbar-nav a.right-icons {
+        text-decoration: none;
+        color: black;
+        display: grid;
+        margin-left: 0px;
+    }
+    .offset-1 {
+        margin-left: 0.333333%;
+    }
+    .search-bar .parent-orange a {
+        display: none;
+        font-size: 16px;
+        font-weight: bolder;
+        margin: 0px 18px;
+    }
+    .search-bar .parent-orange {
+        border-radius: 11px;
+        width: 53px;
+        background-color: orange;
+        padding: 13px 13px;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .category {
+        display: none;
+        position: absolute;
+        top: 18%;
+        left: 56%;
+    }
+    .search button, input, optgroup, select, textarea {
+        margin: 0;
+        height: 0px;
+        width: 0px;
+        border: none;
+        height: 45px;
+        border-radius: 48px;
+        margin-top: 0px;
+        margin-right: -40px;
+        border:unset;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+    }
+    .search-bar .col-6{
+        display: none;
+    }
+    
+}
