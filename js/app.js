@@ -22,6 +22,7 @@ $('.owl-carousel').owlCarousel({
     loop:true,
     margin:false,
     merge:true,
+    mergeFit:true,
     responsive:{
         678:{
             mergeFit:true
