@@ -17,5 +17,20 @@ document.getElementById("seconds").innerHTML=seconds;
 
 },1000);
 
+$('.owl-carousel').owlCarousel({
+    items:1,
+    loop:true,
+    margin:false,
+    merge:true,
+    responsive:{
+        678:{
+            mergeFit:true
+        },
+        1000:{
+            mergeFit:false
+        }
+    }
+});
+
 
 

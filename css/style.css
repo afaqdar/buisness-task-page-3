@@ -161,7 +161,7 @@ body{
 .category{
     position: absolute;
     top: 18%;
-    left: 48%;
+    left: 43%;
 }
 
 .category .material-symbols-outlined {
@@ -198,60 +198,7 @@ body{
     border: 1.8px dotted orange;
 
 }
-.special-offer .col-8 img{
-    border-radius: 10px;
-    width: 100%;
-    height: 60%;
-}
 
-.special-offer .col-8 img.radio{
-    border-radius: 10px;
-    width: 44%;
-    height: 28%;
-}
-
-.special-offer .col-8 img.kits{
-    border-radius: 10px;
-    width: 44%;
-    height: 28%;
-}
-.special-offer img{
-    width: 224px;
-    height: 250px;
-    border-radius: 6px;
-    margin-left: 23px;
-}
-.special-offer h2{
-    font-size: 30px;
-    font-weight: bold;
-    font-family: 'Grandstander', cursive;
-
-}
-.price{
-    margin-left: 68px;
-}
-.price.h6, h6 {
-    margin-left: 44px;
-    font-size: 1rem;
-}
-.special-offer .col{
-    width: 50px;
-    height: 50px;
-    color:red;
-}
-.line{
-    width: 285px;
-    overflow: hidden;
-    height: 8px;
-    background-color:rgba(128,128, 128,.3) ;
-    border-radius: 50px;
-}
-.line h1{
-    height: 8px;
-    width: 130px;
-    background-color:pink;
-    border-radius: 50px;
-}
 .spacing{
     display: flex;
     justify-content: space-between;
@@ -287,6 +234,141 @@ margin: 0px;
     margin-left: 20px;
     font-weight: bolder;
 }
+
+.line{
+    width: 318px;
+    overflow: hidden;
+    height: 8px;
+    background-color:rgba(128,128, 128,.3) ;
+    border-radius: 50px;
+}
+.line h1{
+    height: 8px;
+    width: 130px;
+    background-color:pink;
+    border-radius: 50px;
+}
+
+.special-offer .col-7{
+    position: relative;
+}
+.special-offer .col-7 img{
+    border-radius: 10px;
+    width: 16%;
+    height: 412px;
+}
+.two-images{
+    width: 100%;
+    position: 
+}
+.two-images .col-5{
+    width: 50%;
+    display: flex;
+}
+
+.two-images .col-5 img{
+    height: 200px;
+}
+
+
+.special-offer img{
+    width: 224px;
+    height: 250px;
+    border-radius: 6px;
+    margin-left: 23px;
+}
+.special-offer h2{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Grandstander', cursive;
+
+}
+.price{
+    margin-left: 68px;
+}
+.price.h6, h6 {
+    margin-left: 44px;
+    font-size: 1rem;
+}
+.special-offer .col{
+    width: 50px;
+    height: 50px;
+    color:red;
+}
+
+.text-data{
+    position: absolute;
+    top:100px;
+    right: -401px;
+
+}
+.text-data a {
+    text-decoration: none;
+    color: rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,1));
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    border-radius: 15px;
+    background-color: #ef617a;
+    font-family: 'Grandstander', cursive;
+
+}
+.text-data .h3, h3 {
+    font-size: 21px;
+    font-weight: bold;
+    color: #ef617a;
+    font-family: 'Grandstander', cursive;
+
+}
+.text-data .h1, h1 {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    font-family: 'Grandstander', cursive;
+
+}
+.text-data .h6, h6 {
+    margin-left: 3px;
+    margin-bottom: 19px;
+    font-size: 1rem;
+}
+.text-again{
+    position: absolute;
+   
+    bottom: 100px;
+    right: -500px;
+    color: black;
+    font-family: 'Grandstander', cursive;
+
+}
+.text-again h3{
+    font-weight: bold;
+    color: black;
+    font-family: 'Grandstander', cursive;
+}
+.special-offer .owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: -161px;
+    position: absolute;
+    left: 360px;
+    bottom: 199px;
+    z-index: 1;
+}
+.special-offer .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: orange;
+    border: 2px solid orange;
+}
+.special-offer .owl-theme .owl-dots .owl-dot span {
+    width: 18px;
+    height: 18px;
+    margin: 0px 7px;
+    background: white;
+    display: block;
+    border: 2px solid orange;
+    -webkit-backface-visibility: visible;
+    transition: opacity 200ms ease;
+    border-radius: 30px;
+}
+
+
 @media (max-width:1399.98px){
     .header{
         overflow: hidden;
@@ -332,7 +414,7 @@ margin: 0px;
     .category {
         position: absolute;
         top: 18%;
-        left: 56%;
+        left: 43%;
     }
     .search-bar .parent-orange {
         border-radius: 11px;
@@ -396,7 +478,7 @@ margin: 0px;
     .category {
         position: absolute;
         top: 18%;
-        left: 53%;
+        left: 43%;
     }
     .search button, input, optgroup, select, textarea {
         margin: 0;
@@ -503,7 +585,7 @@ margin: 0px;
     .category {
         position: absolute;
         top: 20%;
-        left: 42%;
+        left: 34%;
     }
     
     .category .h2, h2 {
@@ -629,7 +711,7 @@ margin: 0px;
         display: none;
         position: absolute;
         top: 21%;
-        left: 43%;
+        left: 28%;
     }
     
     .search button, input, optgroup, select, textarea {
