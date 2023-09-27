@@ -1,4 +1,4 @@
-var countDownDate = new Date("Sep 26, 2023 00:00:00").getTime();
+var countDownDate = new Date("15 oct, 2023 00:00:00").getTime();
 var x = setInterval(function(){
     var now = new Date().getTime();
     var distance =countDownDate - now;
@@ -16,7 +16,6 @@ document.getElementById("seconds").innerHTML=seconds;
 
 
 },1000);
-
 $('.owl-carousel').owlCarousel({
     items:1,
     loop:true,
@@ -32,6 +31,24 @@ $('.owl-carousel').owlCarousel({
         }
     }
 });
+
+$(document).ready(function(){
+
+$('.owl-carousel').owlCarousel({
+    items:5,
+    loop:true,
+    margin:10,
+    merge:true,
+    responsive:{
+        678:{
+            mergeFit:true
+        },
+        1000:{
+            mergeFit:false
+        }
+    }
+});
+})
 
 
 
