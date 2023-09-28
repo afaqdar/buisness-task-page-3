@@ -2567,6 +2567,7 @@ color: rgb(61, 12, 12);
     margin-top: 19px;
     top: 170px;
     left:430px;
+    padding: 0;
     list-style-type: none;
 }
 .second-last-footer h3.contact {
@@ -2595,6 +2596,7 @@ color: rgb(61, 12, 12);
 }
 
 .last-footer .col ul {
+    padding: 0;
     list-style-type: none;
     display: block;
     align-items: center;
